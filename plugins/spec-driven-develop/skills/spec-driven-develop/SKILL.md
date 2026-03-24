@@ -22,6 +22,8 @@ You are executing the **Spec-Driven Development** workflow — a standardized pr
 - If it **exists**: Read it immediately. You are resuming an in-progress task. Identify which phase you are in, what has been completed, and continue from the exact point where the previous conversation left off. Do NOT restart from Phase 0.
 - If it **does not exist**: This is a fresh start. Proceed to Phase 0.
 
+After loading your current state from MASTER.md, populate the platform's native task tracking tool (e.g. TodoWrite) with the active phase's pending tasks. For each task, set content to the task description, status to "in-progress" for the currently active task and "todo" for the rest, and priority mapped as P0=high, P1=medium, P2=low. This gives the user real-time visual progress in their IDE. If no native task tool is available, skip this step — MASTER.md alone is sufficient.
+
 ---
 
 ## Phase 0: Intent Recognition & Confirmation
@@ -245,3 +247,5 @@ You are executing the **Spec-Driven Development** workflow — a standardized pr
 6. **Respect the user's time**. Keep summaries concise. Use bullet points and tables, not walls of text.
 
 7. **Cleanup is not optional**. When all tasks are done, always enter Phase 6. Don't leave temporary artifacts behind.
+
+8. **Dual-write progress updates**. When completing a task, update both the platform's native task tool (mark as completed) AND the Markdown progress files (check the box, update counts). The native tool provides real-time visibility; the Markdown files provide cross-conversation persistence. Neither replaces the other.

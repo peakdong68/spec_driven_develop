@@ -222,9 +222,13 @@ Status legend: ⏳ Pending, 🔄 In Progress, ✅ Achieved
 
 ## Tasks
 - [ ] **Task N.1**: Description
+  - Priority: P0
+  - Effort: M
   - Acceptance: How to verify this is done
   - Notes: _none yet_
 - [ ] **Task N.2**: Description
+  - Priority: P1
+  - Effort: S
   - Acceptance: How to verify this is done
   - Notes: _none yet_
 
